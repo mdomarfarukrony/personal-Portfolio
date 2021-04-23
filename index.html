@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+      <title>(baha)Omar - Personal Portfolio Template</title>
+      <link rel="shortcut icon" href="img/Untitled-2 copy.png" />
+      <link rel="stylesheet" type="text/css" href="css/index_style.css"/>
+      <link rel="stylesheet" type="text/css" href="css/JS_style.css"/>
+      <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+   </head>
+   <body>
+      <section class="fullBody">
+         <!-- menu bar -->
+         <div id="menuBar" class="menuBar">
+            <div class="menuWapper">
+               <div class="logo"><img src="img/whiteLogo.png"/></div>
+               <div class="menuOptions">
+                  <ul>
+                     <li><i id="home" class="fas fa-home"><span>HOME</span></i></li>
+                     <li><i id="about" class="fas fa-user-alt"><span>ABOUT</span></i></li>
+                     <li><i id="resume" class="fas fa-address-book"><span>RESUME</span></i></li>
+                     <li><i id="portfolio" class="fas fa-briefcase"><span>PORTFOLIO</span></i></li>
+                     <li><i id="blog" class="fas fa-receipt"><span>BLOG</span></i></li>
+                     <li><i id="contact" class="fas fa-envelope"><span>CONTACT</span></i></li>
+                  </ul>
+               </div>
+               <div class="sound" onclick="togglePlay()" title="click to start/stop music" >
+                  <i class="fab fa-soundcloud"></i> <br />
+                  <h4>Sound</h4>
+                  <audio autoplay id="audio" src="mp3/MASTER D kajol chokhe by.mp3" type="audio/mp3">
+                     <!-- <source /> -->
+                  </audio>
+               </div>
+            </div>
+         </div>
+         <!-- menu bar end -->
+         <!-- home page  -->
+         <div class="homePage ">
+            <div id="respBtn" class="responsiveBtn">
+               <span>Omar</span>
+               <i class="fas fa-bars"></i>
+            </div>
+            <div class="homeText">
+               <h1>Omar Faruk</h1>
+               <p>I am a <span id="changeP">Student</span> <span id="changeP2">Web Designer</span></p>
+            </div>
+            <div class="socailLinks">
+               <ul>
+                  <li><a href="https://www.facebook.com/MDOMARFARUK11" target="_blank"> <i class="fab fa-facebook-f"></i> </a> </li>
+                  <li><a href="#"> <i class="fab fa-twitter"></i>    </a> </li>
+                  <li><a href="#"> <i class="fab fa-instagram"></i>  </a> </li>
+                  <li><a href="https://www.youtube.com/channel/UCp_ljH0AS9Ax4DH325WNZmw/featured" target="_blank"> <i class="fab fa-youtube"></i>    </a> </li>
+               </ul>
+            </div>
+            <!-- About page -->
+            <div id="aboutP" class="aboutPage">
+               <div class="container">
+                  <div class="abWapper">
+                     <div class="sectionTitle">
+                        <h1>About Me</h1>
+                        <span><span></span></span>
+                     </div>
+                     <div class="myDetails">
+                        <div class="myDWapper">
+                           <div class="myDImg"><img src="img/myph.jpg" alt="that's me"/></div>
+                           <div class="myDText">
+                              <h1 class="myname">
+                              Omar Faruk</h3>
+                              <h5><i class="fas fa-map-marked-alt"></i>Dhaka , Bangladesh</h5>
+                              <p>Hello! i'm Omar Faruk. I am a Student. And I am more than 17 years old. I study in College. I have a hug interest in web Design and Development. So I am learning web Design and Development from one year ago. In the meantime I have come up with ample ideas on HTML and CSS. And now a days I am learning JavaScript.</p>
+                              <p>I have couple of hobbies but I like to travel. I Will travel almost all the districts of our country, When I stand on my own two feet. And then I would hang out with everyone in my family.
+                              </p>
+                           </div>
+                           <div class="myDOptins">
+                              <div class="option1 opt">
+                                 <div class="optLogo">
+                                    <i class="fas fa-award"></i>
+                                 </div>
+                                 <div class="optT">
+                                    <h3>0 Years Job</h3>
+                                    <h5>Experience</h5>
+                                 </div>
+                              </div>
+                              <div class="option2 opt">
+                                 <div class="optLogo">
+                                    <i class="fas fa-certificate"></i>
+                                 </div>
+                                 <div class="optT">
+                                    <h3>00 Projects</h3>
+                                    <h5>Completed</h5>
+                                 </div>
+                              </div>
+                              <div class="option3 opt">
+                                 <div class="optLogo">
+                                    <i class="fas fa-user-astronaut"></i>
+                                 </div>
+                                 <div class="optT">
+                                    <h3>Freelance</h3>
+                                    <h5>Learning</h5>
+                                 </div>
+                              </div>
+                              <div class="option4 ">
+                                 <a class="btn" href="pdf/my CV.pdf" download><span>Download CV </span></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- my interest  -->
+                     <div class="myInterest">
+                        <div class="boxTitle">
+                           <h1>My Interests<span><span></span></span></h1>
+                        </div>
+                        <div class="interestsCatagory">
+                           <div class="iCatagoryWapper">
+                              <div class="catagory Box1 ">
+                                 <i class="fas fa-route"></i>
+                                 <h3>Traveling</h3>
+                              </div>
+                              <div class="catagory Box2 ">
+                                 <i class="fas fa-film"></i>
+                                 <h3>Movies</h3>
+                              </div>
+                              <div class="catagory Box3 ">
+                                 <i class="fas fa-gamepad"></i>
+                                 <h3>Games</h3>
+                              </div>
+                              <div class="catagory Box4 ">
+                                 <i class="fas fa-music"></i>
+                                 <h3>Music</h3>
+                              </div>
+                              <div class="catagory Box5 ">
+                                 <i class="fas fa-plug"></i>
+                                 <h3>Electronics</h3>
+                              </div>
+                              <div class="catagory Box6 ">
+                                 <i class="fab fa-internet-explorer"></i>
+                                 <h3>Browsing</h3>
+                              </div>
+                              <div class="catagory Box7 ">
+                                 <i class="fas fa-utensils"></i>
+                                 <h3>Eating</h3>
+                              </div>
+                              <div class="catagory Box8 ">
+                                 <i class="fas fa-camera"></i>
+                                 <h3>Photography</h3>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- my Service -->
+                     <div class="myService">
+                        <div class="boxTitle">
+                           <h1>My Service<span><span></span></span></h1>
+                        </div>
+                        <div class="msWapper">
+                           <div class="mServicebox Box1">
+                              <i class="fas fa-desktop"></i>
+                              <h3>Web Design</h3>
+                              <p>I can Design your Web page or Site, As you want. I have enough
+                                 experience in HTML5 & CSS3
+                              </p>
+                           </div>
+                           <div class="mServicebox Box2">
+                              <i class="fas fa-cogs"></i>
+                              <h3>Web Development</h3>
+                              <p>I can Development your Web page or Site, As you want. I have enough experience in PHP also python </p>
+                           </div>
+                           <div class="mServicebox Box3">
+                              <i class="fas fa-mobile-alt"></i>
+                              <h3>Responsive Design</h3>
+                              <p>My Deign are always Responsive. Because I always this about the Mobile users and also the Tab users.</p>
+                           </div>
+                           <div class="mServicebox Box4">
+                              <i class="fas fa-medkit"></i>
+                              <h3>quick Support</h3>
+                              <p>I will support you mere then 12-14 hours in day. And when you need me i will always be thare for you. </p>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Testimonials -->
+                     <div class="testimonial">
+                        <div class="boxTitle">
+                           <h1>Testimonials<span><span></span></span></h1>
+                        </div>
+                        <div id="TWtotalSild" class="TWapper">
+                           <!-- content Box 1 -->
+                           <div id="testimoCont1" class="TBox box1">
+                              <div class="TBoxTop">
+                                 <div class="TBoxImg">
+                                    <img src="img/testimonial-1.jpg"/>
+                                 </div>
+                                 <div class="TBoxName">
+                                    <h3>John Doe</h3>
+                                    <h5>Web Development</h5>
+                                 </div>
+                                 <div class="TBoxReview">
+                                    <ul>
+                                       <li><i class="far fa-star"></i></li>
+                                       <li><i class="far fa-star"></i></li>
+                                       <li><i class="far fa-star"></i></li>
+                                       <li><i class="far fa-star"></i></li>
+                                       <li><i class="far fa-star"></i></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                              <div class="TBoxBottom">
+                                 <p>
+                                    Curabitur eleifend tempor gnceleris eget placeratvel phasellus eget
+                                    sem just metup consequat gestas facilisis eleifend posure tempor
+                                    metus sem just metup consequat gestas facilisis eleifend posures
+                                    temporureture.
+                                 </p>
+                              </div>
+                           </div>
+                           <!-- content Box 2 -->
+                           <div id="testimoCont2" class="TBox box2">
+                              <div class="TBoxTop">
+                                 <div class="TBoxImg">
+                                    <img src="img/testimonial-2.jpg"/>
+                                 </div>
+                                 <div class="TBoxName">
+                                    <h3>Eyasin Khan</h3>
+                                    <h5>Electrical Mechanic</h5>
+                                 </div>
+                                 <div class="TBoxReview">
+                                    <ul>
+                                       <li><i class="far fa-star"></i></li>
+                                       <li><i class="far fa-star"></i></li>
+                                       <li><i class="far fa-star"></i></li>
+                                       <li><i class="far fa-star"></i></li>
+                                       <li><i class="far fa-star"></i></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                              <div class="TBoxBottom">
+                                 <p>
+                                    Hi! I am Eyasin the Electrical mechanic. I can repair your Electrical Accessories. I am able to repair TV, Fridge, AC, Phone and other this. I can draw the line of current at home.
+                                    If you want, I went to your house to work.
+                                 </p>
+                              </div>
+                           </div>
+                           <!-- content Box 3 -->
+                           <div id="testimoCont3" class="TBox box3">
+                              <div class="TBoxTop">
+                                 <div class="TBoxImg">
+                                    <img src="img/testimonial-3.jpg"/>
+                                 </div>
+                                 <div class="TBoxName">
+                                    <h3>David Doe</h3>
+                                    <h5>UI /UX Designer</h5>
+                                 </div>
+                                 <div class="TBoxReview">
+                                    <ul>
+                                       <li><i class="far fa-star"></i></li>
+                                       <li><i class="far fa-star"></i></li>
+                                       <li><i class="far fa-star"></i></li>
+                                       <li><i class="far fa-star"></i></li>
+                                       <li><i class="far fa-star"></i></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                              <div class="TBoxBottom">
+                                 <p>
+                                    Curabitur eleifend tempor gnceleris eget placeratvel phasellus eget
+                                    sem just metup consequat gestas facilisis eleifend posure tempor
+                                    metus sem just metup consequat gestas facilisis eleifend posures
+                                    temporureture.
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- price  -->
+               <div class="price">
+                  <div class="boxTitle">
+                     <h1>Price<span><span></span></span></h1>
+                  </div>
+                  <div class="priceWapper">
+                     <!--box 1-->
+                     <div class="PContent box1">
+                        <div class="CHeader">
+                           <i class="fas fa-user"></i>
+                           <h3>Basic</h3>
+                        </div>
+                        <div class="CBody">
+                           <h2><sup>$</sup>25<span>month</span></h2>
+                           <ul>
+                              <li>Web Design</li>
+                              <li>Web Development</li>
+                              <li>Responsive Design</li>
+                              <li>Game Development</li>
+                           </ul>
+                        </div>
+                        <div class="CFooter">
+                           <a class="btn" href="#"><span>Buy Now</span></a>
+                        </div>
+                     </div>
+                     <!-- box 2 -->
+                     <div class="PContent box2">
+                        <div class="CHeader">
+                           <i class="fas fa-briefcase"></i>
+                           <h3>Stander</h3>
+                        </div>
+                        <div class="CBody">
+                           <h2><sup>$</sup>40<span>month</span></h2>
+                           <ul>
+                              <li>Web Design</li>
+                              <li>Web Development</li>
+                              <li>Responsive Design</li>
+                              <li>Game Development</li>
+                           </ul>
+                        </div>
+                        <div class="CFooter">
+                           <a class="btn" href="#"><span>Buy Now</span></a>
+                        </div>
+                     </div>
+                     <!-- box 3 -->
+                     <div class="PContent box3">
+                        <div class="CHeader">
+                           <i class="fas fa-globe"></i>
+                           <h3>Premium</h3>
+                        </div>
+                        <div class="CBody">
+                           <h2><sup>$</sup>55<span>month</span></h2>
+                           <ul>
+                              <li>Web Design</li>
+                              <li>Web Development</li>
+                              <li>Responsive Design</li>
+                              <li>Game Development</li>
+                           </ul>
+                        </div>
+                        <div class="CFooter">
+                           <a class="btn" href="#"><span>Buy Now</span></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- about end -->
+            <!-- Resume page stat -->
+            <div id="resumeP"class="resume">
+               <div class="container">
+                  <div class="resumeWapper">
+                     <div class="sectionTitle">
+                        <h1>Resume</h1>
+                        <span><span></span></span>
+                     </div>
+                     <div class="Exprience&Education">
+                        <!-- exprience  calumn -->
+                        <div class="experience col_1">
+                           <div class="expWapper">
+                              <div class="boxTitle">
+                                 <h1>Experience<span><span></span></span></h1>
+                              </div>
+                              <div class="columnDetail">
+                                 <!-- content 1 -->
+                                 <div class="ColDetContent1 CDC">
+                                    <div class="CDCEffect"><span></span></div>
+                                    <div class="CDCTop">
+                                       <h3>Web Design</h3>
+                                       <h5><i class="fas fa-calendar-alt"></i>2020 - 2021 | continuing a curse in Fn's software LTD.</h5>
+                                    </div>
+                                    <div class="CDCBody">
+                                       <p>Work experience is essential for getting a job. Whether it's a short work placement or a longer internship, work experience is always viewed favorable by employers and can help you decide your future career.</p>
+                                    </div>
+                                 </div>
+                                 <!-- content 2 -->
+                                 <div class="ColDetContent2 CDC">
+                                    <div class="CDCEffect"><span></span></div>
+                                    <div class="CDCTop">
+                                       <h3>Front-End Developer</h3>
+                                       <h5><i class="fas fa-calendar-alt"></i>2020 - 2021 | continuing a curse in Fn's software LTD.</h5>
+                                    </div>
+                                    <div class="CDCBody">
+                                       <p>Work experience is essential for getting a job. Whether it's a short work placement or a longer internship, work experience is always viewed favorable by employers and can help you decide your future career.</p>
+                                    </div>
+                                 </div>
+                                 <!-- content 3 -->
+                                 <div class="ColDetContent3 CDC">
+                                    <div class="CDCEffect"><span></span></div>
+                                    <div class="CDCTop">
+                                       <h3>Web Developer</h3>
+                                       <h5><i class="fas fa-calendar-alt"></i>2020 - 2021 | continuing a curse in Fn's software LTD.</h5>
+                                    </div>
+                                    <div class="CDCBody">
+                                       <p>Work experience is essential for getting a job. Whether it's a short work placement or a longer internship, work experience is always viewed favourably by employers and can help you decide your future career.</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <!--  education calumn -->
+                        <div class="education col_2">
+                           <div class="educationWapper">
+                              <div class="boxTitle">
+                                 <h1>Education<span><span></span></span></h1>
+                              </div>
+                              <!-- culamn details -->
+                              <div class="columnDetail">
+                                 <!-- content 1 -->
+                                 <div class="ColDetContent1 CDC">
+                                    <div class="CDCEffect"><span></span></div>
+                                    <div class="CDCTop">
+                                       <h3>S.S.C</h3>
+                                       <h5><i class="fas fa-calendar-alt"></i>2018 - 2019 | Golakandail M.R.B high school</h5>
+                                    </div>
+                                    <div class="CDCBody">
+                                       <p>Work experience is essential for getting a job. Whether it's a short work placement or a longer internship, work experience is always viewed favorable by employers and can help you decide your future career.</p>
+                                    </div>
+                                 </div>
+                                 <!-- content 2 -->
+                                 <div class="ColDetContent2 CDC">
+                                    <div class="CDCEffect"><span></span></div>
+                                    <div class="CDCTop">
+                                       <h3>J.S.C</h3>
+                                       <h5><i class="fas fa-calendar-alt"></i>2017 - 2017 | Golakandail M.R.B high school</h5>
+                                    </div>
+                                    <div class="CDCBody">
+                                       <p>Work experience is essential for getting a job. Whether it's a short work placement or a longer internship, work experience is always viewed favourably by employers and can help you decide your future career.</p>
+                                    </div>
+                                 </div>
+                                 <!-- content 3 -->
+                                 <div class="ColDetContent3 CDC">
+                                    <div class="CDCEffect"><span></span></div>
+                                    <div class="CDCTop">
+                                       <h3>P.S.C</h3>
+                                       <h5><i class="fas fa-calendar-alt"></i>2014 - 2014 | Golakandail Primary School</h5>
+                                    </div>
+                                    <div class="CDCBody">
+                                       <p>Work experience is essential for getting a job. Whether it's a short work placement or a longer internship, work experience is always viewed favourably by employers and can help you decide your future career.</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Skills  -->
+                     <div class="skill">
+                        <div class="boxTitle">
+                           <h1>Skills<span><span></span></span></h1>
+                        </div>
+                        <div class="skillContent">
+                           <div class="SContentLeft">
+                              <ul>
+                                 <li>
+                                    <h3>HTML5</h3>
+                                    <span>98%</span>
+                                 </li>
+                                 <li>
+                                    <h3>CSS3</h3>
+                                    <span>85%</span>
+                                 </li>
+                                 <li>
+                                    <h3>JavaScript</h3>
+                                    <span>90%</span>
+                                 </li>
+                                 <li>
+                                    <h3>UI/UX Design</h3>
+                                    <span>77%</span>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="SContentRight">
+                              <ul>
+                                 <li>
+                                    <h3>80%<br /><span>PHP</span></h3>
+                                 </li>
+                                 <li>
+                                    <h3>70%<br /><span>Illustrator</span></h3>
+                                 </li>
+                                 <li>
+                                    <h3>60%<br /><span>Photoshop</span></h3>
+                                 </li>
+                                 <li>
+                                    <h3>90%<br /><span>Angular JS</span></h3>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- working Process  -->
+                     <div class="workProcess">
+                        <div class="boxTitle">
+                           <h1>My Working Process<span><span></span></span></h1>
+                        </div>
+                        <div class="wProcessContent">
+                           <div class="wpContentLeft">
+                              <div class="LeftContent one WPCT">
+                                 <h2>01</h2>
+                                 <h3>Discuss idea</h3>
+                                 <p>I could describe these conceptions, also impress upon paper all that is living.</p>
+                              </div>
+                              <div class="LeftContent two WPCT">
+                                 <h2>02</h2>
+                                 <h3>Creative concept</h3>
+                                 <p>I could describe these conceptions, also impress upon paper all that is living.</p>
+                              </div>
+                           </div>
+                           <div class="wpContentMiddel">
+                              <div class="middelContent">
+                                 <h2>
+                                 WORKING<br/>PROCESS</h3><span></span>
+                              </div>
+                           </div>
+                           <div class="wpContentRight">
+                              <div class="RightContent one WPCT">
+                                 <h2>03</h2>
+                                 <h3>Web concept</h3>
+                                 <p>I could describe these conceptions, also impress upon paper all that is living.</p>
+                              </div>
+                              <div class="RightContent two WPCT">
+                                 <h2>04</h2>
+                                 <h3>Final concept</h3>
+                                 <p>I could describe these conceptions, also impress upon paper all that is living.</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!--  resume end-->
+            <!-- Portfolio  -->
+            <div id="portfolioP"class="portfolio">
+               <div class="sectionTitle">
+                  <h1>Portfolio</h1>
+                  <span><span></span></span>
+               </div>
+               <div class="PWapper">
+                  <div class="PMenu">
+                     <ul>
+                        <li>All</li>
+                        <li>Brand</li>
+                        <li>Design</li>
+                        <li>Graphics</li>
+                     </ul>
+                  </div>
+                  <div class="PortContent">
+                     <div class="PCBox box1">
+                        <h3>Project Name<a href="#" target="_blank"></a></h3>
+                        <p>#Graphics</p>
+                        <i class="fas fa-image"></i>
+                        <img src="img/img-1.jpg"/>
+                     </div>
+                     <div class="PCBox box2">
+                        <h3>Project Name<a href="#" target="_blank"></a></h3>
+                        <p>#Graphics</p>
+                        <i class="fas fa-image"></i>
+                        <img src="img/img-2.jpg"/>
+                     </div>
+                     <div class="PCBox box3">
+                        <h3>Project Name<a href="#" target="_blank"></a></h3>
+                        <p>#Graphics</p>
+                        <i class="fas fa-image"></i>
+                        <img src="img/img-3.jpg"/>
+                     </div>
+                     <div class="PCBox box4">
+                        <h3>Project Name<a href="#" target="_blank"></a></h3>
+                        <p>#Graphics</p>
+                        <i class="fas fa-image"></i>
+                        <img src="img/img-4.jpg"/>
+                     </div>
+                     <div class="PCBox box5">
+                        <h3>Project Name<a href="#" target="_blank"></a></h3>
+                        <p>#Graphics</p>
+                        <i class="fas fa-image"></i>
+                        <img src="img/img-5.jpg"/>
+                     </div>
+                     <div class="PCBox box6">
+                        <h3>Project Name<a href="#" target="_blank"></a></h3>
+                        <p>#Graphics</p>
+                        <i class="fas fa-image"></i>
+                        <img src="img/img-6.jpg"/>
+                     </div>
+                     <div class="PCBox box7">
+                        <h3>Project Name<a href="#" target="_blank"></a></h3>
+                        <p>#Graphics</p>
+                        <i class="fas fa-image"></i>
+                        <img src="img/img-7.jpg"/>
+                     </div>
+                     <div class="PCBox box8">
+                        <h3>Project Name<a href="#" target="_blank"></a></h3>
+                        <p>#Graphics</p>
+                        <i class="fas fa-image"></i>
+                        <img src="img/img-8.jpg"/>
+                     </div>
+                     <div class="PCBox box9">
+                        <h3>Project Name<a href="#
+                           " target="_blank"></a></h3>
+                        <p>#Graphics</p>
+                        <i class="fas fa-image"></i>
+                        <img src="img/img-9.jpg"/>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- portfolio end -->
+            <!-- Blog -->
+            <div id="blogP" class="blog">
+               <div class="sectionTitle">
+                  <h1>Blog</h1>
+                  <span><span></span></span>
+               </div>
+               <div class="blogWapper">
+                  <div class="blogContent">
+                     <div class="blogContentBox BCB_1">
+                        <img src="img/img-1 (1).jpg"/>
+                        <div class="BCBDetails">
+                           <h3>ROAD TO SUCCESS</h3>
+                           <p>15 April 2019 <span><i class="fas fa-circle"></i></span> Lifestyle</p>
+                           <div class="BCBDBtn">
+                              <a class="btn" href="#"><span>Read More </span></a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="blogContentBox BCB_2">
+                        <img src="img/img-2 (1).jpg"/>
+                        <div class="BCBDetails">
+                           <h3>ROAD TO SUCCESS</h3>
+                           <p>15 April 2019 <span><i class="fas fa-circle"></i></span> Lifestyle</p>
+                           <div class="BCBDBtn">
+                              <a class="btn" href="#"><span>Read More </span></a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="blogContentBox BCB_3">
+                        <img src="img/img-3 (1).jpg"/>
+                        <div class="BCBDetails">
+                           <h3>ROAD TO SUCCESS</h3>
+                           <p>15 April 2019 <span><i class="fas fa-circle"></i></span> Lifestyle</p>
+                           <div class="BCBDBtn">
+                              <a class="btn" href="#"><span>Read More </span></a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="blogContentBox BCB_4">
+                        <img src="img/img-4 (1).jpg"/>
+                        <div class="BCBDetails">
+                           <h3>ROAD TO SUCCESS</h3>
+                           <p>15 April 2019 <span><i class="fas fa-circle"></i></span> Lifestyle</p>
+                           <div class="BCBDBtn">
+                              <a class="btn" href="#"><span>Read More </span></a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="blogContentBox BCB_5">
+                        <img src="img/img-5 (1).jpg"/>
+                        <div class="BCBDetails">
+                           <h3>ROAD TO SUCCESS</h3>
+                           <p>15 April 2019 <span><i class="fas fa-circle"></i></span> Lifestyle</p>
+                           <div class="BCBDBtn">
+                              <a class="btn" href="#"><span>Read More </span></a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="blogContentBox BCB_6">
+                        <img src="img/img-6 (1).jpg"/>
+                        <div class="BCBDetails">
+                           <h3>ROAD TO SUCCESS</h3>
+                           <p>15 April 2019 <span><i class="fas fa-circle"></i></span> Lifestyle</p>
+                           <div class="BCBDBtn">
+                              <a class="btn" href="#"><span>Read More </span></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- blog end -->
+            <!-- contact page -->
+            <div id="contactP" class="contact">
+               <div class="sectionTitle">
+                  <h1>Contact</h1>
+                  <span><span></span></span>
+               </div>
+               <div class="contaWapper">
+                  <form class="contactOption">
+                     <input id="contactinp1" class="npname" type="text" placeholder="Name*" required/>
+                     <input id="contactinp2" class="npmail" type="email" placeholder="Email*" required/>
+                     <textarea id="contactinp3" class="nptextarea" placeholder="Your Message" required></textarea>
+                     <a id="contactBtn" class="Cbtn" href="#"><input type="submit" value="Send Message"/></a>
+                  </form>
+                  <div class="contactDetails">
+                     <div class="CDEmail CD">
+                        <i class="fas fa-paper-plane"></i>
+                        <h2>mdomarfarukrony11@gmail.com</h2>
+                        <p>E-mail</p>
+                     </div>
+                     <div class="CDLocation CD">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h2>Golakandail,Dhaka,Bangladesh</h2>
+                        <p>Address</p>
+                     </div>
+                     <div class="CDPhone CD">
+                        <i class="fas fa-phone"></i>
+                        <h2><span>(+880)</span>1864799637</h2>
+                        <p>Phone</p>
+                     </div>
+                  </div>
+                  <div class="contactMap">
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29209.154365063325!2d90.5637158051831!3d23.777875477275682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1618774352064!5m2!1sen!2sbd" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                  </div>
+               </div>
+            </div>
+         </div>
+         </div>
+         </div><!-- home page end -->
+      </section>
+      <script type="application/javascript" src="js/index_setting.js"></script>
+   </body>
+</html>

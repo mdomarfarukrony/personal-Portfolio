@@ -1,0 +1,21 @@
+/*section block*/
+.sectionBlock{
+	left: 10%; 
+}
+
+/*home chaneP*/
+.changePEffect1 {
+     transform: scaleX(1) !important;
+}
+
+
+/*responsive */
+/*responsive menu active*/
+.resMenuActv{
+	left:0% !important;
+}
+
+
+.soundColor{
+	color:var(--green);
+}
