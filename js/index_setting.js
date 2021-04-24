@@ -123,6 +123,8 @@ sound.addEventListener("click",function(){
 "use strik"
 // full body
 let fullBody=document.querySelector(".fullBody");
+let WinH=window.innerHeight;
+fullBody.setAttribute("style","height:"+WinH+"px")
 
 function resBody(){
 	let fullBodyWidth=window.innerWidth;
@@ -266,9 +268,11 @@ contactBtn.addEventListener("submit",function(event){
 // responsive settings
 //menu
 let respBtn=document.querySelector("#respBtn");
+let bar=document.querySelector("#bar");
 let menuBar=document.querySelector("#menuBar");
 
 respBtn.addEventListener("click",function(){
+	bar.classList.toggle("fa-times")
 	menuBar.classList.toggle("resMenuActv")
 
 });
