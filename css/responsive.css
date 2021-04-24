@@ -77,7 +77,19 @@
 .sectionBlock{
 	left: 0%; 
 }
+.menuBar::-webkit-scrollbar {
+  width: 10px;               
+}
 
+.menuBar::-webkit-scrollbar-track {
+  background: #1e282e;        
+}
+
+.menuBar::-webkit-scrollbar-thumb {
+  background-color: #25ca7f40;   
+  border-radius: 20px;       
+   
+}
 /*about page*/
 .aboutPage {
     
@@ -602,7 +614,19 @@ form.contactOption {
 textarea.nptextarea {
     width: 89%;
 }
+.menuBar::-webkit-scrollbar {
+  width: 10px;               
+}
 
+.menuBar::-webkit-scrollbar-track {
+  background: #1e282e;        
+}
+
+.menuBar::-webkit-scrollbar-thumb {
+  background-color: #25ca7f40;   
+  border-radius: 20px;       
+   
+}
 
 
 
