@@ -28,6 +28,7 @@ let existingPage=document.querySelectorAll("#aboutP,#resumeP,#portfolioP,#blogP,
 
 	})
 
+
 });//home end
 
 
@@ -42,6 +43,8 @@ about.addEventListener("click",function(){
 		value.classList.remove("sectionBlock")
 
 	})
+	// hidde menu bar 
+	bar.classList.remove("fa-times")
 	
 });
 //about end
@@ -59,6 +62,8 @@ resume.addEventListener("click",function(){
 		value.classList.remove("sectionBlock")
 
 	})
+	// hidde menu bar 
+	bar.classList.remove("fa-times")
 	
 });//resume end
 
@@ -73,6 +78,8 @@ portfolio.addEventListener("click",function(){
 		value.classList.remove("sectionBlock")
 
 	})
+	// hidde menu bar 
+	bar.classList.remove("fa-times")
 	
 });//portfolio end
 
@@ -88,6 +95,8 @@ blog.addEventListener("click",function(){
 		value.classList.remove("sectionBlock")
 
 	})
+	// hidde menu bar 
+	bar.classList.remove("fa-times")
 	
 });//blog end
 
@@ -103,6 +112,8 @@ contact.addEventListener("click",function(){
 		value.classList.remove("sectionBlock")
 
 	})
+	// hidde menu bar 
+	bar.classList.remove("fa-times")
 	
 });//contact end
 
