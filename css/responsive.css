@@ -36,8 +36,8 @@
     height: 100%;
 }
 .menuBar {
-    left: -15%;
-    width:15%;
+    left: -30%;
+    width: 25%;
     overflow-y: scroll;
 }
 
@@ -75,7 +75,7 @@
 
 
 .sectionBlock{
-	left: 0%; 
+    left: 0%; 
 }
 .menuBar::-webkit-scrollbar {
   width: 10px;               
@@ -122,7 +122,7 @@
     margin-bottom:20px !important;
 }
 .mServicebox.Box3{
-	height:241px;
+    height:241px;
 }
 div#testimoCont1 {
     width: 73%;
@@ -139,10 +139,10 @@ div#testimoCont3 {
     left: 100%;
 }
 .abSlidBlock{
-	left:8% !important;
+    left:8% !important;
 }
 .abSlidhidd{
-	left:-100% !important;
+    left:-100% !important;
 }
 
 .PContent {
@@ -349,7 +349,7 @@ a#contactBtn input {
 
 
 @media screen and (max-width: 375px){
-	.homeText {
+    .homeText {
     left: 9%;
     top: 30%;
 }
@@ -427,7 +427,7 @@ div#testimoCont1 {
     widht: 16%;
 }
 .TBox.box1,.TBox.box2,.TBox.box3 {
-	width: 55% !important;
+    width: 55% !important;
 }
 
 .TBoxImg {
